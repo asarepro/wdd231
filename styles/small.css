@@ -32,9 +32,10 @@ header .logo{
     padding: 10px;
 }
 
+
 .menu-links li .active{
-    background-color: white;
-    color: #003049;
+    background-color: #003049;
+    color: white;
 }
 
 .menu-open::before{
@@ -69,7 +70,7 @@ header .logo{
     text-decoration: none;
     font-size: 1.2rem;
     border-bottom: 1px solid black;
-    color: white;
+    color: black;
     transition: .5s ease;
 }
 

@@ -10,6 +10,15 @@
         background-color: #003049;
      }
 
+      .menu-links li .active {
+         background-color: white;
+         color: #003049;
+      }
+
+     .menu-links li a{
+      color: white;
+     }
+
      .container{
         display: grid;
         grid-template-columns: 1fr 1fr;

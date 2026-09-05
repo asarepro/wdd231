@@ -1,3 +1,7 @@
+:root {
+    --my-font: 'Lato';
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -5,6 +9,7 @@
 }
 
 body{
+    font-family: var(--my-font), sans-serif;
     font-size: 100%;
 }
 

@@ -1,0 +1,75 @@
+{ 
+    "company":
+        [
+    {
+        "company_name": "TechNova Solutions",
+        "company_address": "12 Silicon Avenue, Accra, Ghana",
+        "company_phone": "+233-302-555-101",
+        "company_website": "https://www.technova.com",
+        "image_file": "images/cape-coast.webp",
+        "membership_level": 3,
+        "industry": "Software Development",
+        "founded": 2012
+    },
+    {
+        "company_name": "GreenLeaf Organics",
+        "company_address": "45 Eco Street, Kumasi, Ghana",
+        "company_phone": "+233-322-777-202",
+        "company_website": "https://www.greenleaforganics.com",
+        "image_file": "images/elmina.webp",
+        "membership_level": 2,
+        "industry": "Agriculture & Food",
+        "founded": 2015
+    },
+    {
+        "company_name": "Skyline Logistics",
+        "company_address": "88 Airport Road, Tema, Ghana",
+        "company_phone": "+233-303-888-303",
+        "company_website": "https://www.skylinelogistics.com",
+        "image_file": "images/Ghana-Mole.webp",
+        "membership_level": 1,
+        "industry": "Transport & Logistics",
+        "founded": 2008
+    },
+    {
+        "company_name": "EduSmart Academy",
+        "company_address": "23 Knowledge Lane, Cape Coast, Ghana",
+        "company_phone": "+233-332-444-404",
+        "company_website": "https://www.edusmartacademy.edu",
+        "image_file": "images/kakum.webp",
+        "membership_level": 3,
+        "industry": "Education",
+        "founded": 2010
+    },
+    {
+        "company_name": "HealthFirst Clinic",
+        "company_address": "67 Wellness Drive, Takoradi, Ghana",
+        "company_phone": "+233-312-999-505",
+        "company_website": "https://www.healthfirstclinic.org",
+        "image_file": "images/kwame.webp",
+        "membership_level": 2,
+        "industry": "Healthcare",
+        "founded": 2016
+    },
+    {
+        "company_name": "GoldCo Mining Ltd.",
+        "company_address": "101 Mineral Road, Obuasi, Ghana",
+        "company_phone": "+233-322-111-606",
+        "company_website": "https://www.goldcomining.com",
+        "image_file": "images/square.webp",
+        "membership_level": 3,
+        "industry": "Mining & Natural Resources",
+        "founded": 2005
+    },
+    {
+        "company_name": "BrightWave Media",
+        "company_address": "56 Creative Hub, Accra, Ghana",
+        "company_phone": "+233-302-333-707",
+        "company_website": "https://www.brightwavemedia.com",
+        "image_file": "images/Manhyia.webp",
+        "membership_level": 1,
+        "industry": "Media & Advertising",
+        "founded": 2018
+    }
+]
+}

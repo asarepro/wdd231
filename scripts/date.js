@@ -3,4 +3,4 @@ copyright.innerHTML =
     `&copy; ${new Date().getFullYear()} | Jeffrey Langford Appiah Asare |Ghana`;
 
     
-const date = document.querySelector('#lastModified').innerHTML = document.lastModified
+const date = document.querySelector('#lastModified').innerHTML = document.lastModified;

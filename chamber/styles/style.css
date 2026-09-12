@@ -252,7 +252,7 @@ footer #currentyear{
     }
 
     footer{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .social-link {
@@ -303,6 +303,10 @@ footer #currentyear{
         }
     .card{
         grid-template-columns: 1fr 1fr;
+    }
+
+    footer{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 

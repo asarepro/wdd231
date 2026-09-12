@@ -1,6 +1,5 @@
 :root{
     --primary-color:#001D3D;
-    --secondary-color: ;
 }
 
 *{
@@ -11,6 +10,7 @@
 
 body{
     font-size: 100%;
+    font-family: Lato, sans-serif;
 }
 
 .mode{
@@ -148,6 +148,7 @@ section{
 section h2,span,p{
     text-align: center;
     color: #121212;
+    font-family: Roboto, sans-serif;
 }
 
 

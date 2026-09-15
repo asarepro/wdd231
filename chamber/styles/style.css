@@ -130,6 +130,11 @@ header button{
     text-decoration: none;
 }
 
+.active{
+    background-color: rgb(225, 145, 64);
+    border-bottom: 3px solid rgb(232, 226, 226);
+}
+
 .card{
     display: grid;
     grid-template-columns: 1fr;

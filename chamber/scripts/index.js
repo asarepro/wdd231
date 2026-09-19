@@ -46,6 +46,7 @@ async function getdata() {
     let respond = await member_data.json();
     console.log(respond.company);
     display_data(respond.company);
+    displayspotlight(respond.company);
 }
 getdata();
 
@@ -77,8 +78,13 @@ function display_data(members) {
         divide.appendChild(para);
         para.append(link);
         card.appendChild(section);
+
+        
     })
+
+   
 }
+    
 
 
 let copyright = document.querySelector('#currentyear');
@@ -87,3 +93,4 @@ copyright.innerHTML =
 
 
 const date = document.querySelector('#lastModified').innerHTML = document.lastModified;
+

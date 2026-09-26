@@ -94,3 +94,26 @@ copyright.innerHTML =
 
 const date = document.querySelector('#lastModified').innerHTML = document.lastModified;
 
+
+
+// thanks page================
+
+const user_url = window.location.search;
+console.log(user_url)
+let user_info = new URLSearchParams(user_url);
+const thanks_card = document.querySelector('.thanks-card');
+
+thanks_card.innerHTML = `
+    <h1>Welcome, Mr.${user_info.get("lastname")}. <br> Thank You</h1>
+    <p>First Name: ${user_info.get('firstname')}      <br><br>   Last Name: ${user_info.get("lastname")}</p>
+    <p>Email: ${user_info.get("useremail")} <br><br> Mobile Number: ${user_info.get('number')}</p>
+    <p>Business Name: ${user_info.get('business-name')}   <br> </p>
+
+`
+
+
+
+
+// let timestamp = document.querySelector('#time').value = new Date().toLocaleString("en-US");
+
+// console.log(timestamp);

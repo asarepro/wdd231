@@ -273,6 +273,114 @@ footer #currentyear{
     color: aliceblue;
 }
 
+/* form==================== */
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+input{
+    width: 100%;
+    display: block;
+    font-size: 1.3rem;
+}
+
+label{
+    margin-bottom: .6rem;
+    padding-bottom: .9rem;
+    font-size: 1rem;
+}
+
+select{
+    display: grid;
+    width: 100%;
+}
+
+textarea{
+    display: grid;
+    width: 100%;
+}
+
+button[type="submit"]{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    padding: .8rem;
+    color: darkblue;
+}
+
+dialog{
+    /* display: block; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: auto;
+    transform: translate(-50%,-50%);
+}
+
+dialog > button{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+dialog h3{
+    text-align: center;
+    margin: 1rem;
+}
+
+.member-card{
+    margin-top: 3rem;
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.level-card{
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    margin-bottom: 2rem;
+    color: darkblue;
+}
+
+.level-card > button{
+    margin-top: 2rem;
+    padding: .8rem;
+    font-size: 1rem;
+}
+
+/* thanks ============*/
+
+.thanks-card{
+    width: 100%;
+    background-color: aliceblue;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+.thanks-card h1{
+    color: darkblue;
+    margin-bottom: 1rem;
+}
+
+.thanks-card p{
+    text-align: center;
+    font-size: 1rem;
+    padding: .9rem;
+}
 
 
 
@@ -390,6 +498,11 @@ footer #currentyear{
 
     .hero-img h1{
         font-size: 3rem;
+    }
+
+    .join-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     footer{

@@ -107,7 +107,7 @@ thanks_card.innerHTML = `
     <h1>Welcome, Mr.${user_info.get("lastname")}. <br> Thank You</h1>
     <p>First Name: ${user_info.get('firstname')}      <br><br>   Last Name: ${user_info.get("lastname")}</p>
     <p>Email: ${user_info.get("useremail")} <br><br> Mobile Number: ${user_info.get('number')}</p>
-    <p>Business Name: ${user_info.get('business-name')}   <br> </p>
+    <p>Business Name: ${user_info.get('business-name')}   <br><br> Time:${document.lastModified}</p>
 
 `
 

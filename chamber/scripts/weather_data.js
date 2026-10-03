@@ -74,3 +74,42 @@ function display(accra_data) {
 // }
     
 
+import { items } from "../data/interest-items.mjs";
+let interest_places = items.item;
+
+interst_items(interest_places);
+
+function interst_items(place) {
+    let interest_card = document.querySelector('.interest-card');
+    place.forEach(x => {
+        console.log(x);
+        let head = document.createElement('h2');
+        let paragraph = document.createElement('p');
+        let address = document.createElement('address');
+        let figure = document.createElement('figure');
+        let img = document.createElement('img');
+        let card_btn = document.createElement('button');
+
+
+        head.innerHTML = x['item-name'];
+        address.innerHTML = x['item-address'];
+        paragraph.innerHTML =x['item-description'];
+        img.setAttribute("src", x['item-image']);
+        img.setAttribute("alt", x['item-name']);
+        card_btn.innerHTML = 'Learn More';
+        paragraph.appendChild(card_btn);
+        
+        figure.appendChild(head);
+        figure.appendChild(img);
+        figure.appendChild(address);
+        figure.appendChild(paragraph);
+        figure.appendChild(card_btn);
+        interest_card.appendChild(figure);
+
+
+    })
+}
+
+
+
+

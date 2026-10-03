@@ -1,0 +1,87 @@
+.interest{
+    padding: 1rem;
+}
+
+.interest-card{
+    /* padding: 1rem; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 10px;
+}
+
+.interest-card figure{
+    margin-bottom: 4rem;
+    padding: .2rem;
+    background-color: var(--primary-color);
+    /* display: grid; */
+    overflow: hidden;
+    border-radius: 8px;
+    grid-template-areas: 
+    "head ."
+    "photo description"
+    "photo info"
+    "btn btn";
+}
+
+.interest-card h2{
+    grid-area: head;
+    text-align: center;
+    margin: 2rem;
+    color: white;
+}
+
+.interest-card address{
+    grid-area: info;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+}
+
+.interest-card p {
+    grid-area: description;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+}
+
+figure img{
+    grid-area: photo;
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+figure button{
+    grid-area: btn;
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+
+@media screen and (min-width:641px) {
+    .interest-card {
+        grid-template-columns: 1fr;
+    }
+
+    .interest-card figure{
+        display: grid;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .interest-card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .interest-card figure{
+        display: grid;
+    }
+}
+
+

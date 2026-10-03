@@ -109,7 +109,7 @@ thanks_card.innerHTML = `
     <p>Email: ${user_info.get("useremail")} <br><br> Mobile Number: ${user_info.get('number')}</p>
     <p>Business Name: ${user_info.get('business-name')}   <br><br> Time:${document.lastModified}</p>
 
-`
+`;
 
 
 
@@ -117,3 +117,9 @@ thanks_card.innerHTML = `
 // let timestamp = document.querySelector('#time').value = new Date().toLocaleString("en-US");
 
 // console.log(timestamp);
+
+
+import { items } from "../data/interest-items.mjs";
+console.log(items);
+
+console.log('jnbjsfkd');

@@ -108,8 +108,31 @@ function interst_items(place) {
 
 
     })
+};
+
+let message = document.querySelector('.message');
+let user = prompt('Welcome, Please Enter Your Name:🫡 ')
+let lastvisited = localStorage.getItem('lastvisited');
+let now = new Date();
+
+if (!lastvisited) {
+    message.innerHTML = `${user.toUpperCase()}, Welcome! Let us know if you have any questions.✨`;
+}
+else {
+    const diffMs = now - parseInt(lastVisit, 10);
+    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+    if (diffMs < 1000 * 60 * 60 * 24) {
+        // Less than a day
+        messageArea.textContent = "Back so soon! Awesome!";
+    } else if (diffDays === 1) {
+        messageArea.textContent = "You last visited 1 day ago.";
+    } else {
+        messageArea.textContent = `You last visited ${diffDays} days ago.`;
+    }
 }
 
-
+// Store current visit time
+localStorage.setItem('lastVisit', now);
 
 

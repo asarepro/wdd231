@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Latest Fashions For All</title>
+    <meta name="description" content="Get in touch with our fashion team. Reach us for inquiries, support, or collaborations through our responsive contact page.">
+    <meta name="author" content="Jeffrey Langford Appiah Asare">
+    <meta property="og:title" content="Contact Latest Fashion For All">
+    <meta property="og:description" content="Connect with us today. Contact our fashion store for assistance, partnerships, or customer support">
+    <meta property="og:image" content="https://asarepro.github.io/wdd231/final/images/shirt.webp">
+    <meta property="og:url" content="https://asarepro.github.io/wdd231/final/contact.html">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/index.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="headline">
+            <img src="../chamber/images/logo.jpg" alt="site logo" width="44" height="44">
+            <span class="site-name">Fashion of the World</span>
+            <button class="menu-icon"></button>
+        </div>
+        <nav>
+            <ul class="menu-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="active">Contact - US</a></li>
+                <li><a href="explore.html">Explore More Clothes</a></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section>
+            <div class="hero-con">
+                <h1>Fashion Of The <span class="hero-txt"> <br> New World</span></h1>
+                <img src="images/hero-image.webp" alt="hero image" width="10" height="10">
+                <div class="btn-group">
+                    <button class="join-btn"><a href="contact.html">Contact Us</a></button>
+                    <button class="explore-btn"><a href="explore.html">Explore More</a></button>
+                </div>
+            </div>
+        </section>
+
+        <h2>Contact Us</h2>
+
+        <div class="contact">
+        <form action="thanks.html" method="get">
+            <label for="firstname">First Name:<input type="text" name="first" id="firstname" autocomplete="given-name" title="First Name" required></label>
+            <label for="lasttname">Last Name:<input type="text" name="last" id="lasttname" autocomplete="family-name" title="last Name"required></label>
+            <label for="country">Choose Country:
+            <select name="country" id="country" required autocomplete="country-name">
+                <option value="None">None</option>
+                <option value="Ghana">Ghana</option>
+                <option value="united Kingdom">United Kingdom</option>
+                <option value="Nigeria">Nigeria</option>
+            </select>
+            </label>
+
+            <label for="message">Message Us
+            <textarea name="message" id="message">
+
+            </textarea>
+            </label>
+
+            <input type="submit" value="Proceed">
+                           
+                
+        </form>
+
+        <div class="contact-pic">
+            <img src="images/hero-image.webp" alt="form image of fashion" width="50" height="50">
+            <button popovertarget="cardbox" id="open-box">About of Contact</button>
+            <dialog popover id="cardbox">
+                <p>
+                    At Fashion of the New World, we value every connection. Whether you have questions, need support, or want to
+                    collaborate, our team is here to assist you. Reach out today and let’s create something stylish together.
+                </p>
+                <button id="close-box" popovertarget="cardbox" popovertargetaction="hide">Close</button>
+            </dialog>
+        </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-media">
+            <ul>
+                <li><a href="#"><img src="../images/facebook.svg" alt="" width="20" height="20"></a></li>
+                <li><a href="#"><img src="../images/facebook.svg" alt="" width="20" height="20"></a></li>
+                <li><a href="#"><img src="../images/facebook.svg" alt="" width="20" height="20"></a></li>
+                <li><a href="#"><img src="../images/facebook.svg" alt="" width="20" height="20"></a></li>
+            </ul>
+        </div>
+        <p>
+            <span id="currentyear"></span>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

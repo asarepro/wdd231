@@ -43,7 +43,7 @@ header .logo{
 }
 
 .menu-close::before{
-    content: '\00D7';
+    content: '\2630';
 }
 
 .menu-close,.menu-open{

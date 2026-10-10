@@ -11,11 +11,26 @@ menu_icon.addEventListener('click',
 )
 
 // FETCH JSON
-async function cloths(){
-    let get_data = await fetch('cloths/cloths_data.json');
-    let get_cloths = await get_data.json();
-    // console.log(get_cloths.fashion_clothes);
-    display_cloths(get_cloths.fashion_clothes)
+async function cloths() {
+    try {
+
+        let get_data = await fetch('cloths/cloths_data.json');
+
+        if (get_data.ok) {
+            // let get_data = await fetch('cloths/cloths_data.json');
+            let get_cloths = await get_data.json();
+            // console.log(get_cloths.fashion_clothes);
+            display_cloths(get_cloths.fashion_clothes)
+        }
+        else {
+            throw Error(await get_data.text);
+        }
+    }
+
+    catch (error) {
+        console.log(error);
+    }
+    
 }
 
 cloths();

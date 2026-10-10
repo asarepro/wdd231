@@ -134,9 +134,9 @@ ul li a {
 
 .btn-group > a{
     background-color: white;
-    padding: 2rem;
+    padding: .7rem;
     border-radius: 8px;
-    font-size: 1.2rem;
+    font-size: .7rem;
     text-decoration: none;
 }
 
@@ -446,6 +446,11 @@ footer{
 
     .fashion_card{
         grid-template-columns: 1fr 1fr;
+    }
+
+    .btn-group > a{
+        padding: 2rem;
+        font-size: 1.2rem;
     }
 
 }

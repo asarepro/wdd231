@@ -132,7 +132,11 @@ ul li a {
     box-shadow: 5px 5px 10px orangered;
 }
 
-.btn-group > button a{
+.btn-group > a{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 

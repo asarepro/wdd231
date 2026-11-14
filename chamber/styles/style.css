@@ -130,11 +130,16 @@ header button{
     text-decoration: none;
 }
 
-.active{
+/* .active{
     background-color: rgb(225, 145, 64);
     border-bottom: 3px solid rgb(232, 226, 226);
-}
+} */
 
+.active {
+    background-color: #F77F00;
+    color: white;
+    border-bottom: 3px solid white;
+}
 
 .hero-img {
     position: relative;
@@ -145,7 +150,8 @@ header button{
 
 .hero-img h1{
     font-size: 2rem;
-    color: var(--primary-color);
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .8);
     position: absolute;
     top: 20%;
     left: 50%;
@@ -230,6 +236,85 @@ section img{
 
 .weather-card p{
     color: aliceblue;
+}
+
+/* directory */
+/* View buttons */
+.view-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.view-controls button {
+    padding: .8rem 1.5rem;
+    border: none;
+    background-color: #001D3D;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view-controls button:hover {
+    background-color: #003566;
+}
+
+/* GRID VIEW */
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.grid-view .member-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.grid-view .member-card img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* LIST VIEW */
+.list-view {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.list-view .member-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.list-view .member-card img {
+    display: none;
+}
+
+.list-view .member-card:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.list-view .member-card:nth-child(odd) {
+    background-color: white;
+}
+
+.member-card a {
+    text-decoration: none;
+    color: #003566;
+    font-weight: bold;
 }
 
 

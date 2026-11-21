@@ -1,4 +1,4 @@
-export let items = {
+export let  items = {
     "item": [
         {
             "item-name":"Accra Chamber of Commerce Building",

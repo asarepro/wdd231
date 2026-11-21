@@ -173,7 +173,7 @@ async function getData() {
 
         displayData(data.company);
     } catch (error) {
-        console.error('Error loading members:', error);
+        console(error);
     }
 }
 
@@ -247,3 +247,20 @@ const lastModified =
 if (lastModified) {
     lastModified.textContent = document.lastModified;
 }
+
+
+let modal = document.querySelector('#level');
+let show = document.querySelector('#show');
+let cls = document.querySelector('#close');
+
+show.addEventListener('click',
+    () => {
+        modal.showModal();   
+    }
+)
+
+cls.addEventListener('click',
+    () => {
+        modal.close();
+    }
+)

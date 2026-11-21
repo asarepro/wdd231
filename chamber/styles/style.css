@@ -186,6 +186,10 @@ header button{
     margin: 50px 0px;
 }
 
+p{
+    line-height: 2.4rem;
+    text-align: center;
+}
 
 section{
     width: 100%;

@@ -247,20 +247,3 @@ const lastModified =
 if (lastModified) {
     lastModified.textContent = document.lastModified;
 }
-
-
-let modal = document.querySelector('#level');
-let show = document.querySelector('#show');
-let cls = document.querySelector('#close');
-
-show.addEventListener('click',
-    () => {
-        modal.showModal();   
-    }
-)
-
-cls.addEventListener('click',
-    () => {
-        modal.close();
-    }
-)

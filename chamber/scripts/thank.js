@@ -7,6 +7,7 @@ let card = document.querySelector('.thanks-card');
 let section = document.createElement('section');
 let user_name = document.createElement('h1');
 let para = document.createElement('p');
+// let time = document.getElementById('timestamp').value = new Date().toISOString();
 
 user_name.innerHTML = `welcome, ${getuser_info.get('firstname')}. 🫡`;
 para.innerHTML = `First Name: ${getuser_info.get('firstname')} <br> Last Name: ${getuser_info.get('lastname')} <br> Eamil: ${getuser_info.get('useremail')}
@@ -17,6 +18,7 @@ section.appendChild(user_name);
 section.appendChild(para);
 card.appendChild(section);
 
+console.log(getuser_info.get('time'));
 
 
 

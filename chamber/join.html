@@ -55,6 +55,7 @@
             <label for="email">Email: <input type="email" name="useremail" id="email" title="User Email" autocomplete="email" required placeholder="kojo@gmail.com"></label>
             <label for="number">Mobile Number: <input type="tel" name="number" id="number" title="Mobile Number" autocomplete="tel" required></label>
             <label for="business-name">Business Name: <input type="text" name="business-name" id="business-name" title="business-Name" autocomplete="organization" required></label>
+            <input type="hidden" id="timestamp" name="time">
 
             <label for="membership-level">
                 Membership Level: 
@@ -82,8 +83,8 @@
 
             <div class="level-card">
                 <h2>NP Membership Level</h2>
-                <button id="show">More info</button>
-                <dialog id="level">
+                <button popovertarget="level">More info</button>
+                <dialog id="level" popover>
                     <h3>NP Membership</h3>
                     <p>
                         Purpose: Lowest cost entry point designed specifically for students, seniors, or small fellow nonprofits. <br>
@@ -92,7 +93,7 @@
                         invites. <br>
                         Goal: Maximizes network size and builds a baseline email marketing list.
                     </p>
-                    <button id="close">Close</button>
+                    <button id="close" popovertarget="level" popovertargetaction="hide">Close</button>
                 </dialog>
             </div>
 

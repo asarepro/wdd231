@@ -1,0 +1,160 @@
+{
+    "fashion_clothes": [
+        {
+            "name": "Classic Denim Jacket",
+            "brand": "UrbanWear",
+            "price": 75.00,
+            "currency": "USD",
+            "description": "A timeless denim jacket with a slim fit and durable stitching.",
+            "date_in": "2026-09-15",
+            "durability": "3 years",
+            "image": "images/jacket.webp"
+        },
+        {
+            "name": "Cotton Summer Dress",
+            "brand": "Elegance Co.",
+            "price": 45.50,
+            "currency": "USD",
+            "description": "Lightweight cotton dress perfect for summer outings.",
+            "date_in": "2026-08-20",
+            "durability": "2 years",
+            "image": "images/cotton-dress.webp"
+        },
+        {
+            "name": "Leather Handbag",
+            "brand": "LuxStyle",
+            "price": 120.00,
+            "currency": "USD",
+            "description": "Premium leather handbag with reinforced straps.",
+            "date_in": "2026-07-10",
+            "durability": "5 years",
+            "image": "images/bag.webp"
+        },
+
+        {
+            "name": "Cotton Summer Dress",
+            "brand": "Elegance Co.",
+            "price": 45.50,
+            "currency": "USD",
+            "description": "Lightweight cotton dress perfect for summer outings.",
+            "date_in": "2026-08-20",
+            "durability": "2 years",
+            "image": "images/cotton-dress.webp"
+        },
+
+        {
+            "name": "Sports Sneakers",
+            "brand": "ActivePro",
+            "price": 60.00,
+            "currency": "USD",
+            "description": "Comfortable sneakers designed for running and casual wear.",
+            "date_in": "2026-09-01",
+            "durability": "2 years",
+            "image": "images/sneaker.webp"
+        },
+        {
+            "name": "Wool Winter Coat",
+            "brand": "CozyLine",
+            "price": 150.00,
+            "currency": "USD",
+            "description": "Warm wool coat with inner lining for cold weather.",
+            "date_in": "2026-10-05",
+            "durability": "4 years",
+            "image": "images/jacket.webp"
+        },
+
+        {
+            "name": "Sports Sneakers",
+            "brand": "ActivePro",
+            "price": 60.00,
+            "currency": "USD",
+            "description": "Comfortable sneakers designed for running and casual wear.",
+            "date_in": "2026-09-01",
+            "durability": "2 years",
+            "image": "images/sneaker.webp"
+        },
+
+        {
+            "name": "Silk Evening Gown",
+            "brand": "RoyalElegance",
+            "price": 200.00,
+            "currency": "USD",
+            "description": "Elegant silk gown for formal occasions.",
+            "date_in": "2026-09-25",
+            "durability": "3 years",
+            "image": "images/silk-gown.webp"
+        },
+        {
+            "name": "Casual Polo Shirt",
+            "brand": "SmartWear",
+            "price": 35.00,
+            "currency": "USD",
+            "description": "Breathable cotton polo shirt for everyday wear.",
+            "date_in": "2026-08-10",
+            "durability": "2 years",
+            "image": "images/shirt.webp"
+        },
+
+        {
+            "name": "Silk Evening Gown",
+            "brand": "RoyalElegance",
+            "price": 200.00,
+            "currency": "USD",
+            "description": "Elegant silk gown for formal occasions.",
+            "date_in": "2026-09-25",
+            "durability": "3 years",
+            "image": "images/silk-gown.webp"
+        },
+
+        {
+            "name": "Designer Sunglasses",
+            "brand": "VisionLux",
+            "price": 95.00,
+            "currency": "USD",
+            "description": "UV-protected stylish sunglasses with durable frames.",
+            "date_in": "2026-07-30",
+            "durability": "4 years",
+            "image": "images/glassess.webp"
+        },
+        {
+            "name": "Leather Belt",
+            "brand": "ClassicLine",
+            "price": 40.00,
+            "currency": "USD",
+            "description": "Durable leather belt with metal buckle.",
+            "date_in": "2026-09-12",
+            "durability": "5 years",
+            "image": "images/belt.webp"
+        },
+        {
+            "name": "Wool Scarf",
+            "brand": "CozyLine",
+            "price": 25.00,
+            "currency": "USD",
+            "description": "Soft wool scarf for chilly weather.",
+            "date_in": "2026-10-01",
+            "durability": "3 years",
+            "image": "images/scarf.webp"
+        },
+        {
+            "name": "Formal Suit",
+            "brand": "Gentleman’s Choice",
+            "price": 300.00,
+            "currency": "USD",
+            "description": "Tailored formal suit with premium fabric.",
+            "date_in": "2026-09-05",
+            "durability": "6 years",
+            "image": "images/suit.webp"
+        },
+        {
+            "name": "Casual Hoodie",
+            "brand": "StreetStyle",
+            "price": 55.00,
+            "currency": "USD",
+            "description": "Comfortable hoodie with front pocket and hood.",
+            "date_in": "2026-08-28",
+            "durability": "3 years",
+            "image": "images/hoodie.webp"
+        }
+    ]
+}
